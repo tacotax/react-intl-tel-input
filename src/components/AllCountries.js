@@ -44,1251 +44,1294 @@
 // ]
 const defaultCountriesData = [
   [
-    "Afghanistan",
-    "af",
-    "93"
+    'Afghanistan',
+    'af',
+    '93',
   ],
   [
-    "Albanie",
-    "al",
-    "355"
+    'Albanie',
+    'al',
+    '355',
   ],
   [
-    "Algérie",
-    "dz",
-    "213"
+    'Algérie',
+    'dz',
+    '213',
   ],
   [
-    "Samoa américaines",
-    "as",
-    "1684"
+    'Samoa américaines',
+    'as',
+    '1684',
   ],
   [
-    "Andorre",
-    "ad",
-    "376"
+    'Andorre',
+    'ad',
+    '376',
   ],
   [
-    "Angola",
-    "ao",
-    "244"
+    'Angola',
+    'ao',
+    '244',
   ],
   [
-    "Anguilla",
-    "ai",
-    "1264"
+    'Anguilla',
+    'ai',
+    '1264',
   ],
   [
-    "Antigua-et-Barbuda",
-    "ag",
-    "1268"
+    'Antigua-et-Barbuda',
+    'ag',
+    '1268',
   ],
   [
-    "Argentine",
-    "ar",
-    "54"
+    'Argentine',
+    'ar',
+    '54',
   ],
   [
-    "Arménie",
-    "am",
-    "374"
+    'Arménie',
+    'am',
+    '374',
   ],
   [
-    "Aruba",
-    "aw",
-    "297"
+    'Aruba',
+    'aw',
+    '297',
   ],
   [
-    "Australie",
-    "au",
-    "61",
-    0
+    'Australie',
+    'au',
+    '61',
+    0,
   ],
   [
-    "Autriche",
-    "at",
-    "43"
+    'Autriche',
+    'at',
+    '43',
   ],
   [
-    "Azerbaïdjan",
-    "az",
-    "994"
+    'Azerbaïdjan',
+    'az',
+    '994',
   ],
   [
-    "Bahamas",
-    "bs",
-    "1242"
+    'Bahamas',
+    'bs',
+    '1242',
   ],
   [
-    "Bahreïn",
-    "bh",
-    "973"
+    'Bahreïn',
+    'bh',
+    '973',
   ],
   [
-    "Bangladesh",
-    "bd",
-    "880"
+    'Bangladesh',
+    'bd',
+    '880',
   ],
   [
-    "Barbade",
-    "bb",
-    "1246"
+    'Barbade',
+    'bb',
+    '1246',
   ],
   [
-    "Biélorussie",
-    "by",
-    "375"
+    'Biélorussie',
+    'by',
+    '375',
   ],
   [
-    "Belgique",
-    "be",
-    "32"
+    'Belgique',
+    'be',
+    '32',
   ],
   [
-    "Belize",
-    "bz",
-    "501"
+    'Belize',
+    'bz',
+    '501',
   ],
   [
-    "Bénin",
-    "bj",
-    "229"
+    'Bénin',
+    'bj',
+    '229',
   ],
   [
-    "Bermudes",
-    "bm",
-    "1441"
+    'Bermudes',
+    'bm',
+    '1441',
   ],
   [
-    "Bhoutan",
-    "bt",
-    "975"
+    'Bhoutan',
+    'bt',
+    '975',
   ],
   [
-    "Bolivie",
-    "bo",
-    "591"
+    'Bolivie',
+    'bo',
+    '591',
   ],
   [
-    "Bosnie-Herzégovine",
-    "ba",
-    "387"
+    'Bosnie-Herzégovine',
+    'ba',
+    '387',
   ],
   [
-    "Botswana",
-    "bw",
-    "267"
+    'Botswana',
+    'bw',
+    '267',
   ],
   [
-    "Brésil",
-    "br",
-    "55"
+    'Brésil',
+    'br',
+    '55',
   ],
   [
-    "Territoire britannique de l'océan Indien",
-    "io",
-    "246"
+    'Territoire britannique de l\'océan Indien',
+    'io',
+    '246',
   ],
   [
-    "Îles Vierges britanniques",
-    "vg",
-    "1284"
+    'Îles Vierges britanniques',
+    'vg',
+    '1284',
   ],
   [
-    "Brunei",
-    "bn",
-    "673"
+    'Brunei',
+    'bn',
+    '673',
   ],
   [
-    "Bulgarie",
-    "bg",
-    "359"
+    'Bulgarie',
+    'bg',
+    '359',
   ],
   [
-    "Burkina Faso",
-    "bf",
-    "226"
+    'Burkina Faso',
+    'bf',
+    '226',
   ],
   [
-    "Burundi ",
-    "bi",
-    "257"
+    'Burundi ',
+    'bi',
+    '257',
   ],
   [
-    "Cambodge",
-    "kh",
-    "855"
+    'Cambodge',
+    'kh',
+    '855',
   ],
   [
-    "Cameroun",
-    "cm",
-    "237"
+    'Cameroun',
+    'cm',
+    '237',
   ],
   [
-    "Canada",
-    "ca",
-    "1",
+    'Canada',
+    'ca',
+    '1',
     1,
-    ["204", "226", "236", "249", "250", "289", "306", "343", "365", "387", "403", "416", "418", "431", "437", "438", "450", "506", "514", "519", "548", "579", "581", "587", "604", "613", "639", "647", "672", "705", "709", "742", "778", "780", "782", "807", "819", "825", "867", "873", "902", "905"]
+    [
+      '204',
+      '226',
+      '236',
+      '249',
+      '250',
+      '289',
+      '306',
+      '343',
+      '365',
+      '387',
+      '403',
+      '416',
+      '418',
+      '431',
+      '437',
+      '438',
+      '450',
+      '506',
+      '514',
+      '519',
+      '548',
+      '579',
+      '581',
+      '587',
+      '604',
+      '613',
+      '639',
+      '647',
+      '672',
+      '705',
+      '709',
+      '742',
+      '778',
+      '780',
+      '782',
+      '807',
+      '819',
+      '825',
+      '867',
+      '873',
+      '902',
+      '905',
+    ],
   ],
   [
-    "Cap-Vert",
-    "cv",
-    "238"
+    'Cap-Vert',
+    'cv',
+    '238',
   ],
   [
-    "Pays-Bas caribéens",
-    "bq",
-    "599",
-    1
+    'Pays-Bas caribéens',
+    'bq',
+    '599',
+    1,
   ],
   [
-    "Îles Caïmans",
-    "ky",
-    "1345"
+    'Îles Caïmans',
+    'ky',
+    '1345',
   ],
   [
-    "République centrafricaine",
-    "cf",
-    "236"
+    'République centrafricaine',
+    'cf',
+    '236',
   ],
   [
-    "Tchad",
-    "td",
-    "235"
+    'Tchad',
+    'td',
+    '235',
   ],
   [
-    "Chili",
-    "cl",
-    "56"
+    'Chili',
+    'cl',
+    '56',
   ],
   [
-    "Chine",
-    "cn",
-    "86"
+    'Chine',
+    'cn',
+    '86',
   ],
   [
-    "Île Christmas",
-    "cx",
-    "61",
-    2
-  ],
-  [
-    "Îles Cocos",
-    "cc",
-    "61",
-    1
-  ],
-  [
-    "Colombie",
-    "co",
-    "57"
-  ],
-  [
-    "Comores",
-    "km",
-    "269"
-  ],
-  [
-    "République démocratique du Congo",
-    "cd",
-    "243"
-  ],
-  [
-    "Congo",
-    "cg",
-    "242"
-  ],
-  [
-    "Îles Cook",
-    "ck",
-    "682"
-  ],
-  [
-    "Costa Rica",
-    "cr",
-    "506"
-  ],
-  [
-    "Côte d’Ivoire",
-    "ci",
-    "225"
-  ],
-  [
-    "Croatie",
-    "hr",
-    "385"
-  ],
-  [
-    "Cuba",
-    "cu",
-    "53"
-  ],
-  [
-    "Curaçao",
-    "cw",
-    "599",
-    0
-  ],
-  [
-    "Chypre",
-    "cy",
-    "357"
-  ],
-  [
-    "République Tchèque",
-    "cz",
-    "420"
-  ],
-  [
-    "Danemark",
-    "dk",
-    "45"
-  ],
-  [
-    "Djibouti",
-    "dj",
-    "253"
-  ],
-  [
-    "Dominique",
-    "dm",
-    "1767"
-  ],
-  [
-    "République Dominicaine",
-    "do",
-    "1",
+    'Île Christmas',
+    'cx',
+    '61',
     2,
-    ["809", "829", "849"]
   ],
   [
-    "Equateur",
-    "ec",
-    "593"
+    'Îles Cocos',
+    'cc',
+    '61',
+    1,
   ],
   [
-    "Egypte",
-    "eg",
-    "20"
+    'Colombie',
+    'co',
+    '57',
   ],
   [
-    "Salvador",
-    "sv",
-    "503"
+    'Comores',
+    'km',
+    '269',
   ],
   [
-    "Guinée équatoriale",
-    "gq",
-    "240"
+    'République démocratique du Congo',
+    'cd',
+    '243',
   ],
   [
-    "Erythrée",
-    "er",
-    "291"
+    'Congo',
+    'cg',
+    '242',
   ],
   [
-    "Estonie",
-    "ee",
-    "372"
+    'Îles Cook',
+    'ck',
+    '682',
   ],
   [
-    "Ethiopie",
-    "et",
-    "251"
+    'Costa Rica',
+    'cr',
+    '506',
   ],
   [
-    "Îles Malouines",
-    "fk",
-    "500"
+    'Côte d’Ivoire',
+    'ci',
+    '225',
   ],
   [
-    "Îles Féroé",
-    "fo",
-    "298"
+    'Croatie',
+    'hr',
+    '385',
   ],
   [
-    "Fidji",
-    "fj",
-    "679"
+    'Cuba',
+    'cu',
+    '53',
   ],
   [
-    "Finlande",
-    "fi",
-    "358",
-    0
+    'Curaçao',
+    'cw',
+    '599',
+    0,
   ],
   [
-    "France",
-    "fr",
-    "33"
+    'Chypre',
+    'cy',
+    '357',
   ],
   [
-    "Guyane française",
-    "gf",
-    "594"
+    'République Tchèque',
+    'cz',
+    '420',
   ],
   [
-    "Polynésie française",
-    "pf",
-    "689"
+    'Danemark',
+    'dk',
+    '45',
   ],
   [
-    "Gabon",
-    "ga",
-    "241"
+    'Djibouti',
+    'dj',
+    '253',
   ],
   [
-    "Gambie",
-    "gm",
-    "220"
+    'Dominique',
+    'dm',
+    '1767',
   ],
   [
-    "Géorgie",
-    "ge",
-    "995"
+    'République Dominicaine',
+    'do',
+    '1',
+    2,
+    ['809', '829', '849'],
   ],
   [
-    "Allemagne",
-    "de",
-    "49"
+    'Equateur',
+    'ec',
+    '593',
   ],
   [
-    "Ghana",
-    "gh",
-    "233"
+    'Egypte',
+    'eg',
+    '20',
   ],
   [
-    "Gibraltar",
-    "gi",
-    "350"
+    'Salvador',
+    'sv',
+    '503',
   ],
   [
-    "Grèce",
-    "gr",
-    "30"
+    'Guinée équatoriale',
+    'gq',
+    '240',
   ],
   [
-    "Groenland",
-    "gl",
-    "299"
+    'Erythrée',
+    'er',
+    '291',
   ],
   [
-    "Grenade",
-    "gd",
-    "1473"
+    'Estonie',
+    'ee',
+    '372',
   ],
   [
-    "Guadeloupe",
-    "gp",
-    "590",
-    0
+    'Ethiopie',
+    'et',
+    '251',
   ],
   [
-    "Guam",
-    "gu",
-    "1671"
+    'Îles Malouines',
+    'fk',
+    '500',
   ],
   [
-    "Guatemala",
-    "gt",
-    "502"
+    'Îles Féroé',
+    'fo',
+    '298',
   ],
   [
-    "Guernesey",
-    "gg",
-    "44",
-    1
+    'Fidji',
+    'fj',
+    '679',
   ],
   [
-    "Guinée",
-    "gn",
-    "224"
+    'Finlande',
+    'fi',
+    '358',
+    0,
   ],
   [
-    "Guinée Bissau",
-    "gw",
-    "245"
+    'France',
+    'fr',
+    '33',
   ],
   [
-    "Guyana",
-    "gy",
-    "592"
+    'Guyane française',
+    'gf',
+    '594',
   ],
   [
-    "Haïti",
-    "ht",
-    "509"
+    'Polynésie française',
+    'pf',
+    '689',
   ],
   [
-    "Honduras",
-    "hn",
-    "504"
+    'Gabon',
+    'ga',
+    '241',
   ],
   [
-    "Hong Kong",
-    "hk",
-    "852"
+    'Gambie',
+    'gm',
+    '220',
   ],
   [
-    "Hongrie",
-    "hu",
-    "36"
+    'Géorgie',
+    'ge',
+    '995',
   ],
   [
-    "Islande",
-    "is",
-    "354"
+    'Allemagne',
+    'de',
+    '49',
   ],
   [
-    "Inde",
-    "in",
-    "91"
+    'Ghana',
+    'gh',
+    '233',
   ],
   [
-    "Indonésie",
-    "id",
-    "62"
+    'Gibraltar',
+    'gi',
+    '350',
   ],
   [
-    "Iran",
-    "ir",
-    "98"
+    'Grèce',
+    'gr',
+    '30',
   ],
   [
-    "Iraq",
-    "iq",
-    "964"
+    'Groenland',
+    'gl',
+    '299',
   ],
   [
-    "Irlande",
-    "ie",
-    "353"
+    'Grenade',
+    'gd',
+    '1473',
   ],
   [
-    "Île de Man",
-    "im",
-    "44",
-    2
+    'Guadeloupe',
+    'gp',
+    '590',
+    0,
   ],
   [
-    "Israël",
-    "il",
-    "972"
+    'Guam',
+    'gu',
+    '1671',
   ],
   [
-    "Italie",
-    "it",
-    "39",
-    0
+    'Guatemala',
+    'gt',
+    '502',
   ],
   [
-    "Jamaïque",
-    "jm",
-    "1876"
+    'Guernesey',
+    'gg',
+    '44',
+    1,
   ],
   [
-    "Japon",
-    "jp",
-    "81"
+    'Guinée',
+    'gn',
+    '224',
   ],
   [
-    "Jersey",
-    "je",
-    "44",
-    3
+    'Guinée Bissau',
+    'gw',
+    '245',
   ],
   [
-    "Jordanie",
-    "jo",
-    "962"
+    'Guyana',
+    'gy',
+    '592',
   ],
   [
-    "Kazakhstan",
-    "kz",
-    "7",
-    1
+    'Haïti',
+    'ht',
+    '509',
   ],
   [
-    "Kenya",
-    "ke",
-    "254"
+    'Honduras',
+    'hn',
+    '504',
   ],
   [
-    "Kiribati",
-    "ki",
-    "686"
+    'Hong Kong',
+    'hk',
+    '852',
   ],
   [
-    "Kosovo",
-    "xk",
-    "383"
+    'Hongrie',
+    'hu',
+    '36',
   ],
   [
-    "Koweit",
-    "kw",
-    "965"
+    'Islande',
+    'is',
+    '354',
   ],
   [
-    "Kirghistan",
-    "kg",
-    "996"
+    'Inde',
+    'in',
+    '91',
   ],
   [
-    "Laos",
-    "la",
-    "856"
+    'Indonésie',
+    'id',
+    '62',
   ],
   [
-    "Lettonie",
-    "lv",
-    "371"
+    'Iran',
+    'ir',
+    '98',
   ],
   [
-    "Liban",
-    "lb",
-    "961"
+    'Iraq',
+    'iq',
+    '964',
   ],
   [
-    "Lesotho",
-    "ls",
-    "266"
+    'Irlande',
+    'ie',
+    '353',
   ],
   [
-    "Liberia",
-    "lr",
-    "231"
+    'Île de Man',
+    'im',
+    '44',
+    2,
   ],
   [
-    "Libye",
-    "ly",
-    "218"
+    'Israël',
+    'il',
+    '972',
   ],
   [
-    "Liechtenstein",
-    "li",
-    "423"
+    'Italie',
+    'it',
+    '39',
+    0,
   ],
   [
-    "Lituanie",
-    "lt",
-    "370"
+    'Jamaïque',
+    'jm',
+    '1876',
   ],
   [
-    "Luxembourg",
-    "lu",
-    "352"
+    'Japon',
+    'jp',
+    '81',
   ],
   [
-    "Macao",
-    "mo",
-    "853"
-  ],
-  [
-    "Macédoine",
-    "mk",
-    "389"
-  ],
-  [
-    "Madagascar",
-    "mg",
-    "261"
-  ],
-  [
-    "Malawi",
-    "mw",
-    "265"
-  ],
-  [
-    "Malaisie",
-    "my",
-    "60"
-  ],
-  [
-    "Maldives",
-    "mv",
-    "960"
-  ],
-  [
-    "Mali",
-    "ml",
-    "223"
-  ],
-  [
-    "Malte",
-    "mt",
-    "356"
-  ],
-  [
-    "Îles Marshall",
-    "mh",
-    "692"
-  ],
-  [
-    "Martinique",
-    "mq",
-    "596"
-  ],
-  [
-    "Mauritanie",
-    "mr",
-    "222"
-  ],
-  [
-    "Maurice",
-    "mu",
-    "230"
-  ],
-  [
-    "Mayotte",
-    "yt",
-    "262",
-    1
-  ],
-  [
-    "Mexique",
-    "mx",
-    "52"
-  ],
-  [
-    "Micronésie",
-    "fm",
-    "691"
-  ],
-  [
-    "Moldavie",
-    "md",
-    "373"
-  ],
-  [
-    "Monaco",
-    "mc",
-    "377"
-  ],
-  [
-    "Mongolie",
-    "mn",
-    "976"
-  ],
-  [
-    "Monténégro",
-    "me",
-    "382"
-  ],
-  [
-    "Montserrat",
-    "ms",
-    "1664"
-  ],
-  [
-    "Maroc",
-    "ma",
-    "212",
-    0
-  ],
-  [
-    "Mozambique",
-    "mz",
-    "258"
-  ],
-  [
-    "Myanmar",
-    "mm",
-    "95"
-  ],
-  [
-    "Namibie",
-    "na",
-    "264"
-  ],
-  [
-    "Nauru",
-    "nr",
-    "674"
-  ],
-  [
-    "Népal",
-    "np",
-    "977"
-  ],
-  [
-    "Pays-Bas",
-    "nl",
-    "31"
-  ],
-  [
-    "Nouvelle-Calédonie",
-    "nc",
-    "687"
-  ],
-  [
-    "Nouvelle-Zélande",
-    "nz",
-    "64"
-  ],
-  [
-    "Nicaragua",
-    "ni",
-    "505"
-  ],
-  [
-    "Niger",
-    "ne",
-    "227"
-  ],
-  [
-    "Nigeria",
-    "ng",
-    "234"
-  ],
-  [
-    "Niue",
-    "nu",
-    "683"
-  ],
-  [
-    "Île Norfolk",
-    "nf",
-    "672"
-  ],
-  [
-    "Corée du Nord",
-    "kp",
-    "850"
-  ],
-  [
-    "Îles Mariannes du Nord",
-    "mp",
-    "1670"
-  ],
-  [
-    "Norvège",
-    "no",
-    "47",
-    0
-  ],
-  [
-    "Oman",
-    "om",
-    "968"
-  ],
-  [
-    "Pakistan",
-    "pk",
-    "92"
-  ],
-  [
-    "Palaos",
-    "pw",
-    "680"
-  ],
-  [
-    "Palestine",
-    "ps",
-    "970"
-  ],
-  [
-    "Panama",
-    "pa",
-    "507"
-  ],
-  [
-    "Papouasie-Nouvelle-Guinée",
-    "pg",
-    "675"
-  ],
-  [
-    "Paraguay",
-    "py",
-    "595"
-  ],
-  [
-    "Pérou",
-    "pe",
-    "51"
-  ],
-  [
-    "Philippines",
-    "ph",
-    "63"
-  ],
-  [
-    "Pologne",
-    "pl",
-    "48"
-  ],
-  [
-    "Portugal",
-    "pt",
-    "351"
-  ],
-  [
-    "Porto Rico",
-    "pr",
-    "1",
+    'Jersey',
+    'je',
+    '44',
     3,
-    ["787", "939"]
   ],
   [
-    "Qatar",
-    "qa",
-    "974"
+    'Jordanie',
+    'jo',
+    '962',
   ],
   [
-    "La Réunion",
-    "re",
-    "262",
-    0
+    'Kazakhstan',
+    'kz',
+    '7',
+    1,
   ],
   [
-    "Roumanie",
-    "ro",
-    "40"
+    'Kenya',
+    'ke',
+    '254',
   ],
   [
-    "Russie",
-    "ru",
-    "7",
-    0
+    'Kiribati',
+    'ki',
+    '686',
   ],
   [
-    "Rwanda",
-    "rw",
-    "250"
+    'Kosovo',
+    'xk',
+    '383',
   ],
   [
-    "Saint-Barthélemy",
-    "bl",
-    "590",
-    1
+    'Koweit',
+    'kw',
+    '965',
   ],
   [
-    "Sainte-Hélène",
-    "sh",
-    "290"
+    'Kirghistan',
+    'kg',
+    '996',
   ],
   [
-    "Saint-Kitts-et-Nevis",
-    "kn",
-    "1869"
+    'Laos',
+    'la',
+    '856',
   ],
   [
-    "Sainte-Lucie",
-    "lc",
-    "1758"
+    'Lettonie',
+    'lv',
+    '371',
   ],
   [
-    "Saint-Martin (partie française)",
-    "mf",
-    "590",
-    2
+    'Liban',
+    'lb',
+    '961',
   ],
   [
-    "Saint-Pierre-et-Miquelon",
-    "pm",
-    "508"
+    'Lesotho',
+    'ls',
+    '266',
   ],
   [
-    "Saint-Vincent-et-les-Grenadines",
-    "vc",
-    "1784"
+    'Liberia',
+    'lr',
+    '231',
   ],
   [
-    "Samoa",
-    "ws",
-    "685"
+    'Libye',
+    'ly',
+    '218',
   ],
   [
-    "Saint-Marin",
-    "sm",
-    "378"
+    'Liechtenstein',
+    'li',
+    '423',
   ],
   [
-    "Sao Tomé-et-Príncipe",
-    "st",
-    "239"
+    'Lituanie',
+    'lt',
+    '370',
   ],
   [
-    "Arabie Saoudite",
-    "sa",
-    "966"
+    'Luxembourg',
+    'lu',
+    '352',
   ],
   [
-    "Sénégal",
-    "sn",
-    "221"
+    'Macao',
+    'mo',
+    '853',
   ],
   [
-    "Serbie",
-    "rs",
-    "381"
+    'Macédoine',
+    'mk',
+    '389',
   ],
   [
-    "Seychelles",
-    "sc",
-    "248"
+    'Madagascar',
+    'mg',
+    '261',
   ],
   [
-    "Sierra Leone",
-    "sl",
-    "232"
+    'Malawi',
+    'mw',
+    '265',
   ],
   [
-    "Singapour",
-    "sg",
-    "65"
+    'Malaisie',
+    'my',
+    '60',
   ],
   [
-    "Saint-Martin",
-    "sx",
-    "1721"
+    'Maldives',
+    'mv',
+    '960',
   ],
   [
-    "Slovaquie",
-    "sk",
-    "421"
+    'Mali',
+    'ml',
+    '223',
   ],
   [
-    "Slovénie",
-    "si",
-    "386"
+    'Malte',
+    'mt',
+    '356',
   ],
   [
-    "Îles Salomon",
-    "sb",
-    "677"
+    'Îles Marshall',
+    'mh',
+    '692',
   ],
   [
-    "Somalie",
-    "so",
-    "252"
+    'Martinique',
+    'mq',
+    '596',
   ],
   [
-    "Afrique du Sud",
-    "za",
-    "27"
+    'Mauritanie',
+    'mr',
+    '222',
   ],
   [
-    "Corée du Sud",
-    "kr",
-    "82"
+    'Maurice',
+    'mu',
+    '230',
   ],
   [
-    "Soudan du Sud",
-    "ss",
-    "211"
+    'Mayotte',
+    'yt',
+    '262',
+    1,
   ],
   [
-    "Espagne",
-    "es",
-    "34"
+    'Mexique',
+    'mx',
+    '52',
   ],
   [
-    "Sri Lanka",
-    "lk",
-    "94"
+    'Micronésie',
+    'fm',
+    '691',
   ],
   [
-    "Soudan",
-    "sd",
-    "249"
+    'Moldavie',
+    'md',
+    '373',
   ],
   [
-    "Suriname",
-    "sr",
-    "597"
+    'Monaco',
+    'mc',
+    '377',
   ],
   [
-    "Svalbard et Jan Mayen",
-    "sj",
-    "47",
-    1
+    'Mongolie',
+    'mn',
+    '976',
   ],
   [
-    "Swaziland",
-    "sz",
-    "268"
+    'Monténégro',
+    'me',
+    '382',
   ],
   [
-    "Suède",
-    "se",
-    "46"
+    'Montserrat',
+    'ms',
+    '1664',
   ],
   [
-    "Suisse",
-    "ch",
-    "41"
+    'Maroc',
+    'ma',
+    '212',
+    0,
   ],
   [
-    "Syrie",
-    "sy",
-    "963"
+    'Mozambique',
+    'mz',
+    '258',
   ],
   [
-    "Taïwan",
-    "tw",
-    "886"
+    'Myanmar',
+    'mm',
+    '95',
   ],
   [
-    "Tadjikistan",
-    "tj",
-    "992"
+    'Namibie',
+    'na',
+    '264',
   ],
   [
-    "Tanzanie",
-    "tz",
-    "255"
+    'Nauru',
+    'nr',
+    '674',
   ],
   [
-    "Thaïlande",
-    "th",
-    "66"
+    'Népal',
+    'np',
+    '977',
   ],
   [
-    "Timor oriental",
-    "tl",
-    "670"
+    'Pays-Bas',
+    'nl',
+    '31',
   ],
   [
-    "Togo",
-    "tg",
-    "228"
+    'Nouvelle-Calédonie',
+    'nc',
+    '687',
   ],
   [
-    "Tokelau",
-    "tk",
-    "690"
+    'Nouvelle-Zélande',
+    'nz',
+    '64',
   ],
   [
-    "Tonga",
-    "to",
-    "676"
+    'Nicaragua',
+    'ni',
+    '505',
   ],
   [
-    "Trinité-et-Tobago",
-    "tt",
-    "1868"
+    'Niger',
+    'ne',
+    '227',
   ],
   [
-    "Tunisie",
-    "tn",
-    "216"
+    'Nigeria',
+    'ng',
+    '234',
   ],
   [
-    "Turquie",
-    "tr",
-    "90"
+    'Niue',
+    'nu',
+    '683',
   ],
   [
-    "Turkmenistan",
-    "tm",
-    "993"
+    'Île Norfolk',
+    'nf',
+    '672',
   ],
   [
-    "Îles Turques-et-Caïques",
-    "tc",
-    "1649"
+    'Corée du Nord',
+    'kp',
+    '850',
   ],
   [
-    "Tuvalu",
-    "tv",
-    "688"
+    'Îles Mariannes du Nord',
+    'mp',
+    '1670',
   ],
   [
-    "Îles Vierges des États-Unis",
-    "vi",
-    "1340"
+    'Norvège',
+    'no',
+    '47',
+    0,
   ],
   [
-    "Ouganda",
-    "ug",
-    "256"
+    'Oman',
+    'om',
+    '968',
   ],
   [
-    "Ukraine",
-    "ua",
-    "380"
+    'Pakistan',
+    'pk',
+    '92',
   ],
   [
-    "Emirats arabes unis",
-    "ae",
-    "971"
+    'Palaos',
+    'pw',
+    '680',
   ],
   [
-    "Royaume-Uni",
-    "gb",
-    "44",
-    0
+    'Palestine',
+    'ps',
+    '970',
   ],
   [
-    "Etats-Unis",
-    "us",
-    "1",
-    0
+    'Panama',
+    'pa',
+    '507',
   ],
   [
-    "Uruguay",
-    "uy",
-    "598"
+    'Papouasie-Nouvelle-Guinée',
+    'pg',
+    '675',
   ],
   [
-    "Ouzbékistan",
-    "uz",
-    "998"
+    'Paraguay',
+    'py',
+    '595',
   ],
   [
-    "Vanuatu",
-    "vu",
-    "678"
+    'Pérou',
+    'pe',
+    '51',
   ],
   [
-    "Cité du Vatican",
-    "va",
-    "39",
-    1
+    'Philippines',
+    'ph',
+    '63',
   ],
   [
-    "Venezuela",
-    "ve",
-    "58"
+    'Pologne',
+    'pl',
+    '48',
   ],
   [
-    "Vietnam",
-    "vn",
-    "84"
+    'Portugal',
+    'pt',
+    '351',
   ],
   [
-    "Wallis-et-Futuna",
-    "wf",
-    "681"
+    'Porto Rico',
+    'pr',
+    '1',
+    3,
+    ['787', '939'],
   ],
   [
-    "Sahara Occidental",
-    "eh",
-    "212",
-    1
+    'Qatar',
+    'qa',
+    '974',
   ],
   [
-    "Yémen",
-    "ye",
-    "967"
+    'La Réunion',
+    're',
+    '262',
+    0,
   ],
   [
-    "Zambie",
-    "zm",
-    "260"
+    'Roumanie',
+    'ro',
+    '40',
   ],
   [
-    "Zimbabwe",
-    "zw",
-    "263"
+    'Russie',
+    'ru',
+    '7',
+    0,
   ],
   [
-    "Åland",
-    "ax",
-    "358",
-    1
-  ]
+    'Rwanda',
+    'rw',
+    '250',
+  ],
+  [
+    'Saint-Barthélemy',
+    'bl',
+    '590',
+    1,
+  ],
+  [
+    'Sainte-Hélène',
+    'sh',
+    '290',
+  ],
+  [
+    'Saint-Kitts-et-Nevis',
+    'kn',
+    '1869',
+  ],
+  [
+    'Sainte-Lucie',
+    'lc',
+    '1758',
+  ],
+  [
+    'Saint-Martin (partie française)',
+    'mf',
+    '590',
+    2,
+  ],
+  [
+    'Saint-Pierre-et-Miquelon',
+    'pm',
+    '508',
+  ],
+  [
+    'Saint-Vincent-et-les-Grenadines',
+    'vc',
+    '1784',
+  ],
+  [
+    'Samoa',
+    'ws',
+    '685',
+  ],
+  [
+    'Saint-Marin',
+    'sm',
+    '378',
+  ],
+  [
+    'Sao Tomé-et-Príncipe',
+    'st',
+    '239',
+  ],
+  [
+    'Arabie Saoudite',
+    'sa',
+    '966',
+  ],
+  [
+    'Sénégal',
+    'sn',
+    '221',
+  ],
+  [
+    'Serbie',
+    'rs',
+    '381',
+  ],
+  [
+    'Seychelles',
+    'sc',
+    '248',
+  ],
+  [
+    'Sierra Leone',
+    'sl',
+    '232',
+  ],
+  [
+    'Singapour',
+    'sg',
+    '65',
+  ],
+  [
+    'Saint-Martin',
+    'sx',
+    '1721',
+  ],
+  [
+    'Slovaquie',
+    'sk',
+    '421',
+  ],
+  [
+    'Slovénie',
+    'si',
+    '386',
+  ],
+  [
+    'Îles Salomon',
+    'sb',
+    '677',
+  ],
+  [
+    'Somalie',
+    'so',
+    '252',
+  ],
+  [
+    'Afrique du Sud',
+    'za',
+    '27',
+  ],
+  [
+    'Corée du Sud',
+    'kr',
+    '82',
+  ],
+  [
+    'Soudan du Sud',
+    'ss',
+    '211',
+  ],
+  [
+    'Espagne',
+    'es',
+    '34',
+  ],
+  [
+    'Sri Lanka',
+    'lk',
+    '94',
+  ],
+  [
+    'Soudan',
+    'sd',
+    '249',
+  ],
+  [
+    'Suriname',
+    'sr',
+    '597',
+  ],
+  [
+    'Svalbard et Jan Mayen',
+    'sj',
+    '47',
+    1,
+  ],
+  [
+    'Swaziland',
+    'sz',
+    '268',
+  ],
+  [
+    'Suède',
+    'se',
+    '46',
+  ],
+  [
+    'Suisse',
+    'ch',
+    '41',
+  ],
+  [
+    'Syrie',
+    'sy',
+    '963',
+  ],
+  [
+    'Taïwan',
+    'tw',
+    '886',
+  ],
+  [
+    'Tadjikistan',
+    'tj',
+    '992',
+  ],
+  [
+    'Tanzanie',
+    'tz',
+    '255',
+  ],
+  [
+    'Thaïlande',
+    'th',
+    '66',
+  ],
+  [
+    'Timor oriental',
+    'tl',
+    '670',
+  ],
+  [
+    'Togo',
+    'tg',
+    '228',
+  ],
+  [
+    'Tokelau',
+    'tk',
+    '690',
+  ],
+  [
+    'Tonga',
+    'to',
+    '676',
+  ],
+  [
+    'Trinité-et-Tobago',
+    'tt',
+    '1868',
+  ],
+  [
+    'Tunisie',
+    'tn',
+    '216',
+  ],
+  [
+    'Turquie',
+    'tr',
+    '90',
+  ],
+  [
+    'Turkmenistan',
+    'tm',
+    '993',
+  ],
+  [
+    'Îles Turques-et-Caïques',
+    'tc',
+    '1649',
+  ],
+  [
+    'Tuvalu',
+    'tv',
+    '688',
+  ],
+  [
+    'Îles Vierges des États-Unis',
+    'vi',
+    '1340',
+  ],
+  [
+    'Ouganda',
+    'ug',
+    '256',
+  ],
+  [
+    'Ukraine',
+    'ua',
+    '380',
+  ],
+  [
+    'Emirats arabes unis',
+    'ae',
+    '971',
+  ],
+  [
+    'Royaume-Uni',
+    'gb',
+    '44',
+    0,
+  ],
+  [
+    'Etats-Unis',
+    'us',
+    '1',
+    0,
+  ],
+  [
+    'Uruguay',
+    'uy',
+    '598',
+  ],
+  [
+    'Ouzbékistan',
+    'uz',
+    '998',
+  ],
+  [
+    'Vanuatu',
+    'vu',
+    '678',
+  ],
+  [
+    'Cité du Vatican',
+    'va',
+    '39',
+    1,
+  ],
+  [
+    'Venezuela',
+    've',
+    '58',
+  ],
+  [
+    'Vietnam',
+    'vn',
+    '84',
+  ],
+  [
+    'Wallis-et-Futuna',
+    'wf',
+    '681',
+  ],
+  [
+    'Sahara Occidental',
+    'eh',
+    '212',
+    1,
+  ],
+  [
+    'Yémen',
+    'ye',
+    '967',
+  ],
+  [
+    'Zambie',
+    'zm',
+    '260',
+  ],
+  [
+    'Zimbabwe',
+    'zw',
+    '263',
+  ],
+  [
+    'Åland',
+    'ax',
+    '358',
+    1,
+  ],
 ];
 
 let countries;

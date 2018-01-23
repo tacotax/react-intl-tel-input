@@ -254,17 +254,17 @@ class IntlTelInputApp extends Component {
       }
     }
 
-    let selectedIndex = 0;
+    const selectedIndex = 0;
+    // Force display of preferred countries list instead of the selected coutry in the dropdown list
+    // if (countryCode && countryCode !== 'auto') {
+    //   for (let i = 0, max = this.countries.length; i < max; i++) {
+    //     if (this.countries[i].iso2 === countryCode) {
+    //       selectedIndex = i;
+    //     }
+    //   }
 
-    if (countryCode && countryCode !== 'auto') {
-      for (let i = 0, max = this.countries.length; i < max; i++) {
-        if (this.countries[i].iso2 === countryCode) {
-          selectedIndex = i;
-        }
-      }
-
-      selectedIndex += this.preferredCountries.length;
-    }
+    //   selectedIndex += this.preferredCountries.length;
+    // }
 
     if (this.state.showDropdown) {
       this.tel.focus();
