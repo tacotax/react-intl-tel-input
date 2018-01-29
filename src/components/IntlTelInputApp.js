@@ -1119,6 +1119,7 @@ class IntlTelInputApp extends Component {
       `${this.selectedCountryData.name}: +${this.selectedCountryData.dialCode}` : 'Unknown';
 
     const value = this.props.value !== undefined ? this.props.value : this.state.value;
+    const tabIndex = parseInt(this.tabIndexInput) + 1;
 
     return (
       <div className={ wrapperClass } style={ wrapperStyle }>
@@ -1157,6 +1158,7 @@ class IntlTelInputApp extends Component {
           autoFocus={ this.props.autoFocus }
           autoComplete={ this.props.autoComplete }
           inputProps={ this.props.telInputProps }
+          tabIndexInput={ tabIndex.toString() }
         />
       </div>
     );

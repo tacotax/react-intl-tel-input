@@ -19,6 +19,7 @@ class TelInput extends Component {
         onChange={ this.props.handleInputChange }
         onBlur={ this.props.handleOnBlur }
         autoFocus={ this.props.autoFocus }
+        tabIndex={ this.props.tabIndexInput }
       />
     );
   }
@@ -38,6 +39,7 @@ TelInput.propTypes = {
   autoComplete: PropTypes.string,
   inputProps: PropTypes.object, // eslint-disable-line react/forbid-prop-types
   refCallback: PropTypes.func.isRequired,
+  tabIndexInput: PropTypes.string,
 };
 
 export default TelInput;
