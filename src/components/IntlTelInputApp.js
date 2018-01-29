@@ -107,6 +107,7 @@ class IntlTelInputApp extends Component {
 
     this.autoHideDialCode = this.props.autoHideDialCode;
     this.allowDropdown = this.props.allowDropdown;
+    this.tabIndexInput = this.props.tabIndexInput;
     this.nationalMode = this.props.nationalMode;
     this.dropdownContainer = '';
 
@@ -1140,6 +1141,7 @@ class IntlTelInputApp extends Component {
           preferredCountries={ this.preferredCountries }
           highlightedCountry={ this.state.highlightedCountry }
           titleTip={ titleTip }
+          tabIndexInput={ this.tabIndexInput }
         />
         <TelInput
           refCallback={ this.setTelRef }
@@ -1194,6 +1196,7 @@ IntlTelInputApp.propTypes = {
   useMobileFullscreenDropdown: PropTypes.bool,
   telInputProps: PropTypes.object, // eslint-disable-line react/forbid-prop-types
   format: PropTypes.bool,
+  tabIndexInput: PropTypes.string,
 };
 
 IntlTelInputApp.defaultProps = {
@@ -1246,6 +1249,7 @@ IntlTelInputApp.defaultProps = {
   telInputProps: {},
   // always format the number
   format: false,
+  tabIndexInput: '0',
 };
 
 export default IntlTelInputApp;
